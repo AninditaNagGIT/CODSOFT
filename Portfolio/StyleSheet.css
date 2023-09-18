@@ -1,0 +1,825 @@
+﻿body {
+    margin: 0;
+    font-family: 'Heebo', sans-serif;
+    padding-top: 80px;
+}
+
+.container {
+    width: 1440px;
+    max-width: 90%;
+    margin: auto;
+    padding: 0 16px;
+}
+
+/* Header style start */
+
+header {
+    background-color: #5e0d99;
+    height: 80px;
+    box-shadow: 0 1px 6px 0 rgba(0,0,0,0.16);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+    header .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 100%;
+    }
+
+    header .companylogo {
+        display: inline-block;
+        font-size: 27px;
+    }
+
+    header .name {
+        color: white;
+    }
+
+    header nav {
+        display: inline-block;
+    }
+
+        header nav ul li {
+            display: inline-block;
+            font-size: 18px;
+            margin-bottom: 2px;
+            letter-spacing: 0.4px;
+            line-height: 22px;
+            margin-top: 0;
+        }
+
+            header nav ul li a {
+                color: white;
+                font-size: 17px;
+                letter-spacing: 0.37px;
+                margin-right: 24px;
+                text-decoration: none;
+            }
+
+                header nav ul li a:hover {
+                    color: #dfe8bf;
+                }
+
+/* Header style end */
+
+
+/*******************************************************************************/
+
+
+/* Objective style start*/
+
+section .row {
+    width: 100%;
+}
+
+    section .row .column {
+        width: 50%;
+        float: left;
+    }
+
+    section .row .column1 {
+        width: 50%;
+        float: right;
+    }
+
+section .column h1 {
+    font-size: 32px;
+    text-decoration: none;
+    display: block;
+    letter-spacing: 0.4px;
+    line-height: 22px;
+    text-align: left;
+    margin: 3em 0 0 2.5em;
+}
+
+section .column h5 {
+    font-size: 19px;
+    text-decoration: none;
+    text-align: left;
+    margin: 1.5em 0 0 4.3em;
+    color: #808080;
+    font-family: 'Arial Rounded MT';
+    letter-spacing: 0.04px;
+}
+
+.image {
+    height: 90%;
+    width: 80%;
+    margin-top: 1em;
+    display: flex;
+    margin-left: 4em;
+}
+
+.initial {
+    padding-top: 2em;
+}
+
+.btnContactMe {
+    margin: 0em 0 0 5em;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #61209a;
+    color: white;
+    font-size: 16px;
+}
+
+.btnSeeResume {
+    margin: 0em 0 0 2em;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #61209a;
+    color: white;
+    font-size: 16px;
+}
+
+.imagefb {
+    width: 2%;
+    margin: 2em 0 0 .5em;
+}
+
+.imageGit {
+    width: 2%;
+    margin: 2em 0 0 .5em;
+    border-radius: 15px;
+}
+
+.imageLinkedIn {
+    width: 2%;
+    margin: 2em 0 0 5em;
+}
+
+
+/* Objective style end*/
+
+
+/*******************************************************************************/
+
+
+/* About Me style start */
+
+section.aboutMe {
+    padding-top: 3em;
+}
+
+    section.aboutMe h2 {
+        text-align: center;
+        font-size: 32px;
+        letter-spacing: 0.85px;
+        line-height: 42px;
+        font-weight: normal;
+        margin: 2em 0 0em 0;
+    }
+
+    section.aboutMe .container {
+        display: flex;
+        justify-content: space-around;
+        padding: 0 8px;
+        margin-top: 3em;
+        border: 1px solid #DDD;
+        height: 100%;
+        box-shadow: 0 1px 6px 0 rgba(0,0,0,0.16);
+        border-radius: 20px;
+        background-color: #8c5cb7;
+    }
+
+    section.aboutMe .row {
+        height: 300px;
+        margin-top: 2em;
+    }
+
+        section.aboutMe .row .columnMyImage {
+            width: 33%;
+            float: left;
+        }
+
+        section.aboutMe .row .columnMyself {
+            width: 66%;
+            float: left;
+            margin-top: 3em;
+            text-align: left;
+        }
+
+    section.aboutMe .divMyself {
+        color: white;
+        font-size: 17px;
+        margin-bottom: 10px;
+        text-decoration: none;
+        display: block;
+        letter-spacing: 0.4px;
+        line-height: 22px;
+        margin-top: 0;
+    }
+
+    section.aboutMe .row .columnMyImage .imageMyself {
+        margin: 2em 2em 2em 5em;
+        width: 50%;
+        height: 20%;
+        border-radius: 120px;
+    }
+
+
+/* About Me style end */
+
+
+/*******************************************************************************/
+
+/* Education style start */
+
+section.education {
+    padding-top: 1em;
+}
+
+    section.education h2 {
+        text-align: center;
+        font-size: 32px;
+        letter-spacing: 0.85px;
+        line-height: 42px;
+        font-weight: normal;
+        margin: 2em 0 0em 0;
+    }
+
+    section.education .education-container {
+        margin-top: 15px;
+    }
+
+    section.education .container {
+        display: flex;
+        justify-content: space-around;
+        padding: 0 8px;
+        margin-top: 5em;
+    }
+
+    section.education .education-container .education {
+        border-radius: 20px;
+        border: 1px solid #DDD;
+        width: 33%;
+        text-align: center;
+        margin: 0 8px;
+        padding: 20px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        box-shadow: 0 1px 6px 0 #8c5cb7;
+        cursor: pointer;
+        background-color: #efe0fc;
+    }
+
+        section.education .education-container .education .education_info {
+            margin: 0;
+        }
+
+            section.education .education-container .education .education_info .title {
+                font-size: 22px;
+                letter-spacing: 0.5px;
+                line-height: 26px;
+                margin-bottom: 8px;
+                font-weight: normal;
+            }
+
+            section.education .education-container .education .education_info .board {
+                font-weight: normal;
+                font-size: 18px;
+                letter-spacing: 0.35px;
+                line-height: 30px;
+                margin-bottom: 8px;
+                margin-top: 0;
+            }
+
+            section.education .education-container .education .education_info .duration {
+                font-weight: normal;
+                font-size: 15px;
+                letter-spacing: 0.35px;
+                line-height: 30px;
+                margin-bottom: 8px;
+                margin-top: 0;
+            }
+
+            section.education .education-container .education .education_info .board {
+                font-weight: normal;
+                font-size: 15px;
+                letter-spacing: 0.35px;
+                line-height: 30px;
+                margin-bottom: 2px;
+                margin-top: 0;
+            }
+
+            section.education .education-container .education .education_info .aggregate {
+                font-weight: normal;
+                font-size: 15px;
+                letter-spacing: 0.35px;
+                line-height: 30px;
+                margin-bottom: 2px;
+                margin-top: 0;
+            }
+
+    section.education .education-container .zoom {
+        transition: transform .1s;
+        height: 250px;
+        margin: 0 2em 0 0em;
+    }
+
+        section.education .education-container .zoom:hover {
+            -ms-transform: scale(1.1); /* IE 9 */
+            -webkit-transform: scale(1.1); /* Safari 3-8 */
+            transform: scale(1.1);
+            background-color: #61209a; /* For browsers that do not support gradients */
+            background-image: linear-gradient(to top, #61209a, #edbced, white);
+            box-shadow: #61209a;
+        }
+
+/* Education style end */
+
+
+/*******************************************************************************/
+
+
+/* Experience style start */
+
+section.experience {
+    text-align: center;
+    margin: 5em 0 3em 0;
+}
+
+    section.experience h1 {
+        text-align: center;
+        font-size: 32px;
+        letter-spacing: 0.85px;
+        line-height: 42px;
+        font-weight: normal;
+        margin-top: 3em;
+    }
+
+    section.experience .container {
+        margin-top: 2em;
+        height: 100%;
+    }
+
+    section.experience .column {
+        float: left;
+        width: 50%;
+    }
+
+    section.experience .container .divCompany {
+        text-align: left;
+        margin: 3em 0 1.5em 2em;
+    }
+
+        section.experience .container .divCompany h4 {
+            color: black;
+            font-size: 22px;
+        }
+
+    section.experience .imgExperience {
+        width: 70%;
+        height: 70%;
+        margin-top: 7em;
+    }
+
+    section.experience .container ul li {
+        font-size: 17px;
+        margin-bottom: 10px;
+        letter-spacing: 0.4px;
+        line-height: 22px;
+        margin-top: 0;
+    }
+
+    section.experience ul li a:hover {
+        color: #131e9f;
+    }
+
+
+/* Experience style start */
+
+
+/*******************************************************************************/
+
+/* Skills style star*/
+
+section.skills {
+    padding-top: 1em;
+    margin-bottom: 2em;
+    margin-top: 40em;
+}
+
+    section.skills h2 {
+        text-align: center;
+        font-size: 32px;
+        letter-spacing: 0.85px;
+        line-height: 42px;
+        font-weight: normal;
+        margin: 2em 0 0em 0;
+    }
+
+    section.skills .skills-container {
+        margin-top: 15px;
+    }
+
+    section.skills .container {
+        display: flex;
+        justify-content: space-around;
+        padding: 0 8px;
+        margin-top: 5em;
+    }
+
+    section.skills .skills-container .skills {
+        border-radius: 8px;
+        width: 33%;
+        text-align: center;
+        margin: 0 8px;
+        padding: 20px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        box-shadow: 0 1px 6px 0 #8c5cb7;
+        cursor: pointer;
+        background-color: #efe0fc;
+    }
+
+        section.skills .skills-container .skills .skills_info {
+            float: left;
+        }
+
+            section.skills .skills-container .skills .skills_info h3 {
+                font-size: 22px;
+                letter-spacing: 0.85px;
+                font-weight: normal;
+                color: #5e0d99;
+            }
+
+            section.skills .skills-container .skills .skills_info .column_1 {
+                width: 30%;
+                margin-bottom: 1em;
+            }
+
+            section.skills .skills-container .skills .skills_info .column_2 {
+                float: right;
+                width: 70%;
+            }
+
+            section.skills .skills-container .skills .skills_info .technology {
+                float: left;
+                font-size: 18px;
+                letter-spacing: 0.85px;
+                font-weight: normal;
+            }
+
+            section.skills .skills-container .skills .skills_info index {
+                float: right;
+            }
+
+    section.skills .skills-container .zoom {
+        transition: transform .1s;
+        height: 450px;
+        margin: 0 2em 0 0em;
+    }
+
+        section.skills .skills-container .zoom:hover {
+            -ms-transform: scale(1.1); /* IE 9 */
+            -webkit-transform: scale(1.1); /* Safari 3-8 */
+            transform: scale(1.1);
+            background-color: #61209a; /* For browsers that do not support gradients */
+            background-image: linear-gradient(to top, #61209a, #edbced, white);
+            box-shadow: #61209a;
+        }
+
+/* Skills style end*/
+
+/******************************************************************************/
+
+/* Contact style start*/
+
+section.contact {
+    padding-top: 1em;
+    margin-bottom: 2em;
+}
+
+    section.contact h2 {
+        text-align: center;
+        font-size: 32px;
+        letter-spacing: 0.85px;
+        line-height: 42px;
+        font-weight: normal;
+        margin: 2em 0 0em 0;
+    }
+
+    section.contact .contact-container {
+        margin-top: 15px;
+    }
+
+    section.contact .container {
+        display: flex;
+        justify-content: space-around;
+        padding: 0 8px;
+        margin-top: 5em;
+    }
+
+    section.contact .contact-container .phone {
+        border-radius: 300px;
+        border: 1px solid #DDD;
+        /*width: 33%*/
+        text-align: center;
+        margin: 0 8px;
+        padding: 20px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        box-shadow: 0 1px 6px 0 rgba(0,0,0,0.16);
+        cursor: pointer;
+        background-color: rgba(0,0,0,0.16);
+    }
+
+    section.contact .contact-container .email {
+        border-radius: 300px;
+        border: 1px solid #DDD;
+        /*width: 33%;*/
+        text-align: center;
+        margin: 0 8px;
+        padding: 20px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        box-shadow: 0 1px 6px 0 rgba(0,0,0,0.16);
+        cursor: pointer;
+        background-color: #e1cae2;
+    }
+
+    section.contact .contact-container .linkedIn {
+        border-radius: 300px;
+        border: 1px solid #DDD;
+        /*width: 33%;*/
+        text-align: center;
+        margin: 0 8px;
+        padding: 20px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        box-shadow: 0 1px 6px 0 rgba(0,0,0,0.16);
+        cursor: pointer;
+        background-color: #b2d4e3;
+    }
+
+    section.contact .contact-container .contact .contact_info {
+        margin-top: 2em;
+    }
+
+        section.contact .contact-container .contact .contact_info .imageLogo {
+            margin: 0;
+        }
+
+        section.contact .contact-container .contact .contact_info .title {
+            font-size: 22px;
+            letter-spacing: 0.5px;
+            line-height: 26px;
+            margin-bottom: 8px;
+            font-weight: normal;
+        }
+
+/* Contact style end */
+
+
+/********************************************************************************/
+
+/* Project style start*/
+
+section.project {
+    padding-top: 1em;
+    margin-bottom: 1em;
+}
+
+    section.project h2 {
+        text-align: center;
+        font-size: 32px;
+        letter-spacing: 0.85px;
+        line-height: 42px;
+        font-weight: normal;
+        margin: 2em 0 0em 0;
+    }
+
+    section.project .project-container {
+        border-radius: 30px;
+        margin: 0 5em;
+    }
+
+    section.project .container {
+        display: flex;
+        justify-content: space-around;
+        padding: 2em 8px;
+        margin-top: 3em;
+    }
+
+    section.project .container_1 {
+        display: flex;
+        justify-content: space-around;
+        padding: 2em 8px;
+        margin: 0 3em;
+    }
+
+    section.project .project-container .project {
+        border-radius: 30px;
+        border: 1px solid #DDD;
+        width: 33%;
+        text-align: center;
+        margin: 0 8px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        box-shadow: 0 1px 6px 0 #8c5cb7;
+        cursor: pointer;
+        background-color: #efe0fc;
+    }
+
+        section.project .project-container .project .title {
+            font-size: 24px;
+            letter-spacing: 0.5px;
+            line-height: 26px;
+            margin-top: 3em;
+            font-weight: normal;
+            padding: .5em;
+        }
+
+        section.project .project-container .project .overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            overflow: hidden;
+            width: 100%;
+            height: 0;
+            transition: .5s ease;
+            border-radius: 30px;
+            margin-top: 3em;
+            text-align: center;
+            background-color: #61209a; /* For browsers that do not support gradients */
+            background-image: linear-gradient(to top, #61209a, #edbced, white);
+        }
+
+        section.project .project-container .project:hover .overlay {
+            height: 100%;
+        }
+
+    section.project .project-container .project_Image {
+        border-radius: 30px;
+        height: 270px;
+    }
+
+
+
+/* Project style end */
+
+/********************************************************************************/
+
+/* certification style start*/
+
+section.certification {
+    padding-top: 1em;
+    margin-bottom: 2em;
+}
+
+    section.certification h2 {
+        text-align: center;
+        font-size: 32px;
+        letter-spacing: 0.85px;
+        line-height: 42px;
+        font-weight: normal;
+        margin: 2em 0 0em 0;
+    }
+
+    section.certification .certification-container {
+        margin-top: 15px;
+        border-radius: 30px;
+        margin: 0 5em;
+    }
+
+    section.certification .container {
+        display: flex;
+        justify-content: space-around;
+        padding: 2em 8px;
+        margin-top: 5em;
+    }
+
+    section.certification .container_1 {
+        display: flex;
+        justify-content: space-around;
+        padding: 2em 8px;
+        margin: 0 3em;
+    }
+
+    section.certification .certification-container .certification {
+        border-radius: 30px;
+        border: 1px solid #DDD;
+        width: 33%;
+        text-align: center;
+        margin: 0 12px 0 3em;
+        padding: 20px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        box-shadow: 0 1px 6px 0 rgba(0,0,0,0.16);
+        cursor: pointer;
+    }
+
+        section.certification .certification-container .certification .certification_info {
+            margin-top: 2em;
+        }
+
+            section.certification .certification-container .certification .certification_info .imageLogo {
+                margin: 0;
+            }
+
+            section.certification .certification-container .certification .certification_info .title {
+                font-size: 22px;
+                letter-spacing: 0.5px;
+                line-height: 26px;
+                margin-bottom: 8px;
+                font-weight: normal;
+            }
+
+    section.certification .certification-container .zoom {
+        transition: transform .1s;
+        height: 300px;
+        margin: 0 1em;
+    }
+
+        section.certification .certification-container .zoom:hover {
+            -ms-transform: scale(1.1); /* IE 9 */
+            -webkit-transform: scale(1.1); /* Safari 3-8 */
+            transform: scale(1.1);
+            background-color: #61209a; /* For browsers that do not support gradients */
+            background-image: linear-gradient(to top, #61209a, #edbced, white);
+            box-shadow: #61209a;
+        }
+
+/* certification style end */
+
+/********************************************************************************/
+
+/* resume style start */
+
+section.resume {
+    text-align: center;
+    margin: 5em 0 3em 0;
+}
+
+    section.resume h1 {
+        text-align: center;
+        font-size: 32px;
+        letter-spacing: 0.85px;
+        line-height: 42px;
+        font-weight: normal;
+        margin-top: 3em;
+    }
+
+    section.resume .imgResume {
+        border-radius: 70px;
+    }
+
+    section.resume .viewResume {
+        margin-top: 4em;
+    }
+
+        section.resume .viewResume .viewPdf {
+            border-radius: 10px;
+            height: 90px;
+            font-size: 20px;
+            border: 1px solid black;
+            padding: 1em 2em;
+            background-color: #61209a;
+            color: white;
+        }
+
+/* resume style end */
+
+
+/*************************************************************************************/
+
+
+/* Footer style start */
+
+footer .copyright {
+    color: white;
+    background-color: #2B2B2B;
+    height: 60px;
+    max-width: 2555px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    line-height: 22px;
+    margin: 0;
+}
+
+/* Footer style end */
+
