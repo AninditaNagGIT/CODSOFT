@@ -1,0 +1,662 @@
+﻿body {
+    margin: 0;
+    font-family: 'Heebo', sans-serif;
+    padding-top:80px;
+}
+
+.container {
+    width: 1440px;
+    max-width: 90%;
+    margin: auto;
+    padding: 0 16px;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+
+/******************************************************************************************************/
+
+/* Header style start */
+
+header {
+    background-color: #FFF;
+    height: 80px;
+    box-shadow: 0 1px 6px 0 rgba(0,0,0,0.16);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: #6055b2;
+}
+
+    header .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 100%;
+    }
+
+    header .companylogo {
+        display: inline-block;
+        font-size: 27px;
+    }
+
+        header .companylogo a {
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+        }
+
+    header .imageLogo {
+        width: 90px;
+        height: 60px;
+        border-radius:60%;
+    }
+
+        header .imageLogo span {
+            font-family: 'Arial Rounded MT';
+            font-size: 15px;
+            letter-spacing: 0.35px;
+            line-height: 42px;
+            font-weight: normal;
+        }
+
+    header .companyName {
+        float: left;
+        margin-right:13em;
+        font-size: 19px;
+        font-weight: 700;
+        letter-spacing: 0.5px;
+        line-height: 26px;
+        color: #FFF;
+    }
+
+    header nav {
+        display: inline-block;
+    }
+
+        header nav ul li {
+            display: inline-block;
+        }
+
+            header nav ul li a {
+                color: white;
+                font-size: 15px;
+                letter-spacing: 0.37px;
+                margin-right: 24px;
+                text-decoration: none;
+            }
+
+                header nav ul li a:hover {
+                    color: white;
+                }
+
+            header nav ul li:last-of-type a {
+                margin-right: 0;
+            }
+
+            header nav ul li.menu {
+                display: none;
+            }
+
+                header nav ul li.menu img {
+                    vertical-align: middle;
+                    width: 24px;
+                    height: auto;
+                }
+
+            header nav ul li .btn {
+                height: 40px;
+                border-radius: 7px;
+                width: 90px;
+                font-size: 20px;
+                background-color: #6d7608;
+                color: white;
+            }
+
+
+/* Header style end */
+
+
+/******************************************************************************************************/
+
+
+/* SlideShow style start */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+}
+
+.slide {
+    display: none;
+}
+
+
+/* Slideshow container */
+.slideshow {
+    max-width: 100%;
+    margin: 0;
+}
+
+/* The dots/ bullet */
+.bullet {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.bullet-div {
+    text-align: center;
+    margin-top: 2em;
+}
+
+.active {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fadeAnimation {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fadeAnimation {
+    from {
+        opacity: .4;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+    .text {
+        font-size: 11px;
+    }
+}
+
+
+/* SlideShow style end */
+
+
+
+/******************************************************************************************************/
+
+
+/* footer style start */
+
+footer .nav_bottom {
+    padding: 50px 0;
+    background-color: #5b607e;
+    margin: 0;
+}
+
+    footer .nav_bottom .container {
+        max-width: 955px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    footer .nav_bottom ul {
+        list-style: none;
+    }
+
+        footer .nav_bottom ul li a {
+            color: #E0E0E0;
+            font-size: 15px;
+            margin-bottom: 10px;
+            text-decoration: none;
+            display: block;
+            letter-spacing: 0.4px;
+            line-height: 22px;
+            margin-top: 0;
+        }
+
+            footer .nav_bottom ul li a:hover {
+                color: #1dd1e2;
+            }
+
+        footer .nav_bottom ul li.list_title {
+            font-size: 18px;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+            line-height: 26px;
+            margin-top: 0;
+            margin-bottom: 20px;
+            color: #FFF;
+        }
+
+footer .copyright {
+    color: white;
+    background-color: #2B2B2B;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    line-height: 22px;
+}
+
+/* footer style end */
+
+
+/******************************************************************************************************/
+
+
+/* AboutUs style start*/
+
+section.aboutUs {
+    padding-top: 40px;
+}
+
+    section.aboutUs .aboutUs_row {
+        background-color: #d2f3f0;
+        height: 400px;
+        margin-top: 2em;
+    }
+
+    section.aboutUs .aboutUs_heading {
+        width: 50%;
+        float: left;
+        padding-left: 5em;
+        text-align: center;
+        margin-top: 2em;
+    }
+
+    section.aboutUs h2 {
+        text-align: center;
+        font-size: 32px;
+        letter-spacing: 0.85px;
+        line-height: 42px;
+        font-weight: normal;
+        margin: 0 0 14px 0;
+    }
+
+    section.aboutUs hr {
+        border: none;
+        border-top: 5px solid #d0cc0b;
+        width: 70px;
+    }
+
+    section.aboutUs h5 {
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: 0.5px;
+        line-height: 24px;
+        margin-top: 0;
+        margin-bottom: 20px;
+        color: #5c5d09;
+    }
+
+    section.aboutUs ul {
+        list-style: none;
+    }
+
+        section.aboutUs ul li {
+            color: black;
+            font-size: 15px;
+            margin-bottom: 10px;
+            text-decoration: none;
+            display: block;
+            letter-spacing: 0.4px;
+            line-height: 22px;
+            margin-top: 0;
+        }
+
+            section.aboutUs ul li a:hover {
+                color: #131e9f;
+            }
+
+    section.aboutUs .images {
+        width: 50%;
+        float: right;
+    }
+
+    section.aboutUs .image_aboutUs {
+        height: 50%;
+        width: 40%;
+        margin: 5.5em 1em 3em 5em;
+        float: left;
+    }
+
+    section.aboutUs .image_about_us {
+        width: 40%;
+        margin: 1em 3em 0 0;
+        float: right;
+    }
+
+    section.aboutUs .image_about {
+        flex-align: center;
+        margin: 1em 3em 0 0;
+        float: right;
+    }
+
+
+/* AboutUs style end*/
+
+
+/******************************************************************************************************/
+
+
+/* Our Couses style start */
+
+section.our_course {
+    padding-top: 10px;
+}
+
+section.our_course h2 {
+    text-align: center;
+    font-size: 32px;
+    letter-spacing: 0.85px;
+    line-height: 42px;
+    font-weight: normal;
+    margin: 2em 0 14px 0;
+}
+
+section.our_course hr {
+    border: none;
+    border-top: 5px solid #67F11D;
+    width: 70px;
+}
+
+section.our_course .course-container {
+    margin-top: 60px;
+}
+
+section.our_course .container {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 8px;
+}
+
+section .course-container {
+    margin-top: 2em;
+}
+
+section.our_course .course-container .course {
+    border-radius: 8px;
+    border: 1px solid #DDD;
+    width: 33%;
+    text-align: center;
+    margin: 0 8px;
+    padding: 40px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 1px 6px 0 rgba(0,0,0,0.16);
+    cursor: pointer;
+}
+
+    section.our_course .course-container .course img {
+        max-width: 100%;
+    }
+
+    section.our_course .course-container .course .imageAI {
+        height: 100%;
+        border-radius: 6px;
+    }
+
+    section.our_course .course-container .course .imageBigData {
+        height: 115%;
+        border-radius: 6px;
+    }
+
+    section.our_course .course-container .course .imageMachineLearning {
+        height: 120%;
+        border-radius: 6px;
+    }
+
+    section.our_course .course-container .course .imageCloudComputing {
+        height: 105%;
+        border-radius: 6px;
+    }
+
+
+    section.our_course .course-container .course.new::before {
+        content: "New";
+        background-color: red;
+        position: absolute;
+        top: 12px;
+        right: 12px;
+        color: #FFF;
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: 0.35px;
+        line-height: 21px;
+        text-align: center;
+        padding: 4px 15px;
+        border-radius: 40px;
+        background-color: #EC1C1C;
+    }
+
+    section.our_course .course-container .course .course_info {
+        margin-top: 50px;
+    }
+
+        section.our_course .course-container .course .course_info .categories {
+            color: #3E50E5;
+            font-weight: normal;
+            font-size: 14px;
+            letter-spacing: 0.35px;
+            line-height: 30px;
+            margin-bottom: 8px;
+            margin-top: 0;
+        }
+
+        section.our_course .course-container .course .course_info .title {
+            font-size: 20px;
+            letter-spacing: 0.5px;
+            line-height: 26px;
+            margin-bottom: 6px;
+            font-weight: normal;
+        }
+
+        section.our_course .course-container .course .course_info .price {
+            font-size: 28px;
+            font-weight: bold;
+            letter-spacing: 0.7px;
+            line-height: 30px;
+            margin-bottom: 16px;
+            margin-top: 0;
+        }
+
+        section.our_course .course-container .course .course_info button {
+            height: 50px;
+            width: 219.5px;
+            border: 1px solid #000;
+            background-color: white;
+            border-radius: 220px;
+            text-transform: uppercase;
+            font-size: 16px;
+            font-weight: 700;
+            letter-spacing: 0.4px;
+            line-height: 24px;
+            cursor: pointer;
+        }
+
+    section.our_course .course-container .course:hover .course_info button {
+        background-color: #3E50E5;
+        border: 1px solid #3E50E5;
+        color: white;
+    }
+
+    section.our_course .course-container .zoom {
+        transition: transform .1s;
+        height: 450px;
+        margin: 0 2em 0 0em;
+    }
+
+        section.our_course .course-container .zoom:hover {
+            -ms-transform: scale(1.1); /* IE 9 */
+            -webkit-transform: scale(1.1); /* Safari 3-8 */
+            transform: scale(1.1);
+            background-color: #657128; /* For browsers that do not support gradients */
+            background-image: linear-gradient(to top, #657128, #edbced, white);
+            box-shadow: #61209a;
+        }
+
+/* Our Courses style end */
+
+
+/******************************************************************************************************/
+
+/* Placement style start*/
+
+section.placement {
+    padding-top: 50px;
+}
+
+    section.placement h2 {
+        text-align: center;
+        font-size: 32px;
+        letter-spacing: 0.85px;
+        line-height: 42px;
+        font-weight: normal;
+        margin: 0 0 14px 0;
+    }
+
+    section.placement hr {
+        border: none;
+        border-top: 5px solid #3E50E5;
+        width: 70px;
+    }
+
+    section.placement .placement_row {
+        background-color: #f4fae5;
+        height: 400px;
+        margin-top: 2em;
+    }
+
+    section.placement .placement_header {
+        width: 50%;
+        float: left;
+        padding-left: 5em;
+        text-align: center;
+    }
+
+    section.placement .imagePlacement {
+        width: 60%;
+        border-radius: 5px;
+        box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.25);
+    }
+
+    section.placement .company {
+        width: 50%;
+        float: right;
+    }
+
+        section.placement .company h3 {
+            text-align: center;
+            font-size: 22px;
+        }
+
+        section.placement .company span {
+            margin-right: 2em;
+        }
+
+        section.placement .company .Logo {
+            box-shadow: 1px 1px 1px 1px #888888;
+            border-radius: 5px;
+        }
+
+
+/* Placement style end*/
+
+
+/*****************************************************************************************/
+
+/* Contact Us style start*/
+
+.followUs {
+    width: 100%;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.container-fluid {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    max-width:100%;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.column_Social {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    height:40px;
+    padding-top:1em;
+    font-size:18px
+}
+
+    .column_Social .textFollow {
+        color: black;
+        margin: 1em 1em 0 16.5em;
+    }
+
+    .iconLogo {
+        width: 2.5%;
+        border-radius: 3px;
+        margin-right: .5em;
+    }
+
+.column_official {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+}
+
+.contact ul {
+    margin: 0;
+    padding: 1em;
+}
+
+.followUs li {
+    border-right: 1px solid #eeeeee;
+    padding: 10px 10px;
+}
+
+.contact ul li {
+    list-style: none;
+    display: inline-block;
+    padding:0 1em;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.top-right-bar {
+    background: -webkit-linear-gradient(left, #616dfd 0%, #393185 51%, #0071b0 100%);
+    color: #fff;
+}
+
+.contact ul li i {
+    padding-right:.5em;
+}
+
+
+/* Contact Us style end*/
